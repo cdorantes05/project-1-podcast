@@ -40,3 +40,6 @@ pnpm-debug.log*
 
 # --- logs ---
 *.log
+
+# --- big local recordings (over GitHub's 100 MB limit) ---
+/Screen Recording*.mov

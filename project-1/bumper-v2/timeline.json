@@ -1,0 +1,19 @@
+{
+  "W": 1920,
+  "H": 1080,
+  "FPS": 24,
+  "DUR": 8,
+  "TEXT": "interview joanna at 6:00pm",
+  "T": {
+    "calc": 0.15,
+    "paint": 0.4,
+    "pick": 0.65,
+    "note": 0.9,
+    "docBtn": 3.9,
+    "click": 4.7,
+    "zoom0": 4.75,
+    "zoom1": 5.25,
+    "typeStart": 1.7,
+    "typeEnd": 3.6
+  }
+}

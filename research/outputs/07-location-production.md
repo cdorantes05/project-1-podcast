@@ -1,6 +1,6 @@
 # Three Friends, Three Places, One Show: An On-Location Production Guide
 
-*Prepared for Carolyn, 2026-10-07. Prices are approximate US street prices from September–October 2026 listings and change often. "Verified" means I read the policy text, either directly or through its indexed text where the page blocked automated fetching. "Unverified" means you should confirm it before relying on it. This is practical guidance, not legal advice.*
+*Prepared for Carolyn. Prices are approximate US street prices and change often. "Verified" means I read the policy text, either directly or through its indexed text where the page blocked automated fetching. "Unverified" means you should confirm it before relying on it. This is practical guidance, not legal advice.*
 
 **How this builds on earlier research:**
 - `01-sample-analysis.md` set the look: cosy, lived-in rooms, visible mics, and Y2K, collage and CRT graphics.
@@ -383,10 +383,10 @@ ShowName/
 `YYYYMMDD_EP##_SEG#_LOCATION_SOURCE_###`
 
 Examples:
-- `20261018_EP01_SEG2_cafe_camA_001.mov`
-- `20261018_EP01_SEG2_cafe_lavGUEST_001.wav`
-- `20261018_EP01_SEG2_cafe_backup_001.m4a`
-- `20261018_EP01_SEG2_cafe_roomtone.wav`
+- `YYYYMMDD_EP01_SEG2_cafe_camA_001.mov`
+- `YYYYMMDD_EP01_SEG2_cafe_lavGUEST_001.wav`
+- `YYYYMMDD_EP01_SEG2_cafe_backup_001.m4a`
+- `YYYYMMDD_EP01_SEG2_cafe_roomtone.wav`
 
 Rename at offload, not later. Put the date first so files sort chronologically. Never use spaces.
 

@@ -1,6 +1,6 @@
 # Production, Gear and Distribution: A Beginner's Guide for Carolyn
 
-*Researched October 2026. Prices are approximate US street prices and change often, so check them before you buy. Sources are linked inline and collected at the end.*
+*Prices are approximate US street prices and change often, so check them before you buy. Sources are linked inline and collected at the end.*
 
 ---
 

@@ -1,6 +1,6 @@
 # Podcast Format & On-Mic Craft: A Practical Guide for a First-Time Student Podcaster
 
-*Prepared for Carolyn. Research date: October 2026, drawing on 2025–2026 sources. The topic isn't settled yet, so this guide stays topic-agnostic and points out where your choice of topic should change the advice.*
+*Prepared for Carolyn. Drawing on 2025–2026 sources. The topic isn't settled yet, so this guide stays topic-agnostic and points out where your choice of topic should change the advice.*
 
 > **A note on the numbers.** The most reliable figures here come from Edison Research, Listen Notes, NPR Training, and Pacific Content. Some retention and completion stats come from vendor blogs that collect data from elsewhere, and some of that data is older (Chartable, for example, shut down in 2024). Treat those as directional and label them that way if you cite them.
 

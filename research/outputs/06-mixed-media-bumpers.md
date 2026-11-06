@@ -1,6 +1,6 @@
 # Mixed-Media Bumpers: A Creative and Practical Guide for Carolyn
 
-Prepared for Carolyn, 2026-10-07. This guide builds on [01-sample-analysis.md](01-sample-analysis.md), which covers her references (cosy two-person video podcasts, lyric videos, and Pinterest boards of collage, Y2K, retro-computer and CRT looks), and on [03-production-and-tools.md](03-production-and-tools.md), which covers gear, editing software, Harvard's Adobe access and music licensing. I don't repeat those here; I link back to them where they matter.
+Prepared for Carolyn. This guide builds on [01-sample-analysis.md](01-sample-analysis.md), which covers her references (cosy two-person video podcasts, lyric videos, and Pinterest boards of collage, Y2K, retro-computer and CRT looks), and on [03-production-and-tools.md](03-production-and-tools.md), which covers gear, editing software, Harvard's Adobe access and music licensing. I don't repeat those here; I link back to them where they matter.
 
 **The working assumption:** one episode made of three interviews with three friends, each filmed in a different place, joined by mixed-media bumpers. Where the advice changes if this becomes a series, it's marked **[Series]**.
 

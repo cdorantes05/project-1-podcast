@@ -5,7 +5,6 @@ description: >-
   dating, real life, advice, and what comes next.
 author: claude
 color: pink
-updated: 2026-10-13T00:00:00.000Z
 order: 1
 emoji: "💬"
 ---

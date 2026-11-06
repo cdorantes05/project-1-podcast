@@ -4,7 +4,6 @@ description: >-
   Three friends, three locations, with mixed-media bumpers between the
   interviews.
 color: blue
-updated: 2026-10-07T00:00:00.000Z
 order: 0
 emoji: "🎙️"
 ---

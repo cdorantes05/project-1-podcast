@@ -1,6 +1,6 @@
 # Episode Plan: Three Friends, Three Places, One Episode
 
-Prepared for Carolyn, 2026-10-07.
+Prepared for Carolyn.
 
 This plan covers one video episode: three interviews with friends, each filmed somewhere different, joined by mixed-media bumpers. It builds on the earlier research files and doesn't repeat them:
 

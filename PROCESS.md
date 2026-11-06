@@ -1,26 +1,24 @@
 # Process: from idea to final cut
 
-How the podcast was made, in order. Each step gives what Carolyn asked for, what was done, which file it produced, and the feedback that led to the next step. Most of the editing was done by asking Claude Code to run ffmpeg, Python and Node. This record was rebuilt from those session transcripts and from file timestamps.
+How the podcast was made, in order. Each step gives what Carolyn asked for, what was done, which file it produced, and the feedback that led to the next step. Most of the editing was done by asking Claude Code to run ffmpeg, Python and Node. This record was rebuilt from those session transcripts and from the order the files were made.
 
-All dates are 2026, Eastern Time. Files marked *(local)* are over GitHub's 100 MB limit and are not in the repo; the rest are linked.
+Files marked *(local)* are over GitHub's 100 MB limit and are not in the repo; the rest are linked.
 
 ## Overview
 
 ```
-Oct 7–13   Plan ──► research/ (7 AI reports) ──► notebook/ (idea, topics, bumper ideas, final plan)
-Oct 30     Film Part II: Daisy, living room (IMG_1104)
-Nov 1      Cut Part II ──► podcast-final-4k.mp4
-Nov 4      Film Part III: Joanna, poster-wall room (IMG_1155)
-Nov 5 am   Sync, clean and cut Part III ──► joanna podcast - final.mov
-Nov 5 pm   Bumper: 6 from-scratch versions, then edit the reference video ──► bumper-final.mp4
-Nov 5 eve  Record and cut Part I: Carolyn on Photo Booth ──► carolyn-screen-final.mov
-Nov 5 late Join the three parts, level the loudness, build transitions ──► podcast-full-final.mp4
-Nov 5–6    Finish in iMovie, fix lighting in Part III ──► final-project-2-lighting.mp4 ──► final-cut-720p.mp4 (in repo)
+1. Plan       research/ (7 AI reports) ──► notebook/ (idea, topics, bumper ideas, final plan)
+2. Part II    Film and cut Daisy, living room (IMG_1104) ──► podcast-final-4k.mp4
+3. Part III   Film, sync, clean and cut Joanna, poster-wall room (IMG_1155) ──► joanna podcast - final.mov
+4. Bumper     6 from-scratch versions, then edit the reference video ──► bumper-final.mp4
+5. Part I     Record and cut Carolyn on Photo Booth ──► carolyn-screen-final.mov
+6. Assemble   Join the three parts, level the loudness, build transitions ──► podcast-full-final.mp4
+7. Finish     iMovie, then lighting fixes on Part III ──► final-project-2-lighting.mp4 ──► final-cut-720p.mp4 (in repo)
 ```
 
 The finished episode runs in this order: **Part I** (Carolyn) → **Part II** (Daisy) → **bumper** → **Part III** (Joanna).
 
-## 1. Planning (Oct 7–13)
+## 1. Planning
 
 - **Research.** Carolyn ran seven AI research agents for podcast prep. Agents 1–4 covered the reference samples, format and hosting, gear and distribution, and a launch plan. Agents 5–7 planned her specific concept: the episode structure, mixed-media bumpers, and shooting on location. Each prompt and report is in [research/](research/README.md).
 - **Idea.** [notebook/podcast-idea.md](notebook/podcast-idea.md): interview three friends in three locations, with mixed-media bumpers in between. References were YouTube playlists of video podcasts and lyric videos, plus Pinterest boards with collage, Y2K, retro-computer and CRT looks.
@@ -31,7 +29,7 @@ The finished episode runs in this order: **Part I** (Carolyn) → **Part II** (D
   - Part II: Daisy, college looking back, in the living room.
   - Part III: Joanna, identity, in Carolyn's room.
 
-## 2. Part II: Daisy interview (filmed Oct 30, edited Nov 1)
+## 2. Part II: Daisy interview
 
 Source: `IMG_1104.MOV` *(local)*, 20:40 of iPhone 4K footage. Carolyn's voice was also recorded on her phone: [`podcast-carolyn-voice.m4a`](project-1/podcast-carolyn-voice.m4a).
 
@@ -48,7 +46,7 @@ Source: `IMG_1104.MOV` *(local)*, 20:40 of iPhone 4K footage. Carolyn's voice wa
    - The first render drifted about 1.5 s out of sync because each segment gained one frame.
    - It was fixed by trimming each segment to an exact frame count, then re-rendered.
 
-## 3. Part III: Joanna interview (filmed Nov 4, edited Nov 5)
+## 3. Part III: Joanna interview
 
 Source: `IMG_1155.MOV` *(local)*, plus Carolyn's phone recording [`joanna podcast recording.m4a`](project-1/joanna%20podcast%20recording.m4a). Scripts: [scripts/joanna-interview/](scripts/joanna-interview/).
 
@@ -75,7 +73,7 @@ Source: `IMG_1155.MOV` *(local)*, plus Carolyn's phone recording [`joanna podcas
    - Result: `joanna podcast - 10 min.mov` *(local)*, 9:36.
    - `joanna podcast - final.mov` *(local)* is the same length and was exported by Carolyn herself.
 
-## 4. Bumper (Nov 5 afternoon)
+## 4. Bumper
 
 Goal: a retro-desktop bumper that leads from Part II into Part III, modelled on `reference-bumper.mp4` ([in repo](project-1/reference-bumper.mp4)). Two approaches were tried.
 
@@ -97,7 +95,7 @@ Note: `bumper/bumper.mjs` was edited in place and now holds the v6 code, but `bu
 - [`bumper-ref-edit/`](project-1/bumper-ref-edit/): the still is in the Paint window and the note text is replaced. A 1080p copy was made.
 - [`bumper-ref-edit-v2/`](project-1/bumper-ref-edit-v2/): she asked for "the word app [to] open to the still" and to remove the still from the background. The Paint canvas is blank and the still fades in on the WordPad page. **[`bumper-final.mp4`](project-1/bumper-ref-edit-v2/bumper-final.mp4) is the bumper used in the episode.**
 
-## 5. Part I: Carolyn on Photo Booth (Nov 5 evening)
+## 5. Part I: Carolyn on Photo Booth
 
 Source: a screen recording of Photo Booth, `carolyn-screen.mov` *(local)*, plus her phone recording `carolyn-recording.m4a` ([in repo](project-1/carolyn-recording.m4a)). Scripts: [scripts/carolyn-screen/](scripts/carolyn-screen/).
 
@@ -107,7 +105,7 @@ Source: a screen recording of Photo Booth, `carolyn-screen.mov` *(local)*, plus 
    - Six tangents and false starts were cut (`plan.py`, `segments.json`), and pauses over 0.75 s were shortened.
    - Result: a 9:44 cut, saved as `carolyn-screen-final.mov` *(local)*.
 
-## 6. Putting it together (Nov 5, 9:30–10:35 pm)
+## 6. Putting it together
 
 1. **Join.** `podcast-full.mp4` *(local)* joins Part I → Part II → bumper → Part III, all scaled to 4K at 29.97 fps.
 2. **Even out loudness.** The sections measured very differently: Part I −31 LUFS, Part II −33.5, Part III −16. In `podcast-full-normalized.mp4` *(local)* each section was normalized to −16 LUFS separately.
@@ -116,21 +114,21 @@ Source: a screen recording of Photo Booth, `carolyn-screen.mov` *(local)*, plus 
    - Bumper → Part III: at 7 s into the bumper, the Joanna video fades in inside the WordPad window and grows to full screen.
 4. **Minimize transition.** [`transitions/minimize-to-taskbar.mp4`](project-1/transitions/minimize-to-taskbar.mp4) is a 1 s clip where the end of Part II shrinks into the WordPad taskbar button. Carolyn said she would add it by hand later.
 
-## 7. Finishing and lighting (Nov 5 late – Nov 6)
+## 7. Finishing and lighting
 
 1. **iMovie.** Carolyn finished the edit in iMovie and exported `podcast-final-1.mp4` *(local)*, 34:21, 1080p.
 2. **Lighting fix for Part III** (scripts: [scripts/lighting-fix/](scripts/lighting-fix/)). Carolyn first asked to brighten the person on the left. She then changed this to "make the person on the right… darker", then "slightly more dark".
    - The final fix applies from 24:47 (1486.9 s): a soft oval mask over the right-hand person, with a darkening curve and a slight colour shift.
    - Her face brightness went from 133 to 113, matching the person on the left.
    - Result: `podcast-final-1-lighting-fix.mp4` *(local)*. [`lighting-fix-before-after.png`](project-1/lighting-fix-before-after.png) shows four moments before and after.
-3. **iMovie export.** `final-project-2.mp4` *(local)*, 1080p, 34:17, 5.2 GB, exported Nov 6 at 12:07 am.
-4. **Final grade.** `final-project-2-lighting.mp4` *(local)*, made Nov 6 at 12:41 pm. **This is the final version.** Scripts: [scripts/lighting-final-project-2/](scripts/lighting-final-project-2/).
+3. **iMovie export.** `final-project-2.mp4` *(local)*, 1080p, 34:17, 5.2 GB.
+4. **Final grade.** `final-project-2-lighting.mp4` *(local)*, made from the iMovie export. **This is the final version.** Scripts: [scripts/lighting-final-project-2/](scripts/lighting-final-project-2/).
    - From 24:41.5 to the end, a brightness curve makes the poster-wall scene match the couch scene: blacks 37 vs 34, whites 190 vs 183, average 119 vs 118.
    - The 720p copy in this repo, [`final-cut-720p.mp4`](project-1/final-cut-720p.mp4), was made from it (two-pass H.264 at 290 kbps, AAC 64 kbps).
 
 ## What isn't recorded
 
-- The Part II and assembly scripts (Nov 1 and Nov 5 night) were not saved. Their steps above come from the session transcripts.
+- The Part II and assembly scripts were not saved. Their steps above come from the session transcripts.
 - What changed between `podcast-full-final.mp4` and the iMovie exports is not recorded.
 - The origin of `reference-bumper.mp4` and of the screen and phone recordings is not recorded; Carolyn supplied them.
-- The Adobe Premiere Pro project in Carolyn's `~/AI` folder (`video-podcast.prproj`, Nov 1) predates this pipeline. It is not known whether it was used.
+- The Adobe Premiere Pro project in Carolyn's `~/AI` folder (`video-podcast.prproj`) was made before this pipeline. It is not known whether it was used.

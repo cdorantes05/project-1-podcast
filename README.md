@@ -14,16 +14,16 @@ The episode runs Part I → Part II → bumper → Part III. The bumper is a ret
 
 The full step-by-step record, with the feedback behind each change, is in **[PROCESS.md](PROCESS.md)**. In short:
 
-1. **Planning** (Oct 7–13). Seven AI research reports ([research/](research/README.md)) fed the planning notes in [notebook/](notebook/README.md), ending in the [three-part plan](notebook/podcast-plan.md). Visual inspiration is on [Pinterest](https://www.pinterest.com/carolynd2811/final-podcast-idea/).
-2. **Part II, Daisy** (filmed Oct 30, edited Nov 1). Claude transcribed the 20:40 take with Whisper and wrote [`cut-list.md`](project-1/cut-list.md). The take was cut to 14:48 with pauses tightened, and my phone audio was switched in whenever I spoke.
-3. **Part III, Joanna** (filmed Nov 4, edited Nov 5).
+1. **Planning.** Seven AI research reports ([research/](research/README.md)) fed the planning notes in [notebook/](notebook/README.md), ending in the [three-part plan](notebook/podcast-plan.md). Visual inspiration is on [Pinterest](https://www.pinterest.com/carolynd2811/final-podcast-idea/).
+2. **Part II, Daisy.** Claude transcribed the 20:40 take with Whisper and wrote [`cut-list.md`](project-1/cut-list.md). The take was cut to 14:48 with pauses tightened, and my phone audio was switched in whenever I spoke.
+3. **Part III, Joanna.**
    - The phone audio was synced to the camera, then cleaned up in rounds of feedback: de-reverb, noise reduction, per-voice EQ, and −16 LUFS.
    - The before/after samples are in `project-1/`.
    - The interview was then cut to 9:36.
-4. **Bumper** (Nov 5). Six versions were drawn from scratch in code (`bumper` to `bumper-v6`). I then switched to editing the reference video itself with `refswap.py`. [`bumper-ref-edit-v2/bumper-final.mp4`](project-1/bumper-ref-edit-v2/bumper-final.mp4) is the one used.
-5. **Part I, me on Photo Booth** (Nov 5). A screen recording paired with my phone audio, cut to 9:44.
-6. **Assembly** (Nov 5). The three parts and the bumper were joined with ffmpeg and each section was levelled to −16 LUFS. Two transitions were built: the interview grows out of a QuickTime window, and Part III grows out of the bumper's WordPad window.
-7. **Finishing** (Nov 5–6). I finished the edit in iMovie and darkened the over-lit person in Part III ([before/after](project-1/lighting-fix-before-after.png)). After exporting `final-project-2.mp4`, I evened out the lighting of the poster-wall scene to match the couch scene; that version, `final-project-2-lighting.mp4`, is the final cut.
+4. **Bumper.** Six versions were drawn from scratch in code (`bumper` to `bumper-v6`). I then switched to editing the reference video itself with `refswap.py`. [`bumper-ref-edit-v2/bumper-final.mp4`](project-1/bumper-ref-edit-v2/bumper-final.mp4) is the one used.
+5. **Part I, me on Photo Booth.** A screen recording paired with my phone audio, cut to 9:44.
+6. **Assembly.** The three parts and the bumper were joined with ffmpeg and each section was levelled to −16 LUFS. Two transitions were built: the interview grows out of a QuickTime window, and Part III grows out of the bumper's WordPad window.
+7. **Finishing.** I finished the edit in iMovie and darkened the over-lit person in Part III ([before/after](project-1/lighting-fix-before-after.png)). After exporting `final-project-2.mp4`, I evened out the lighting of the poster-wall scene to match the couch scene; that version, `final-project-2-lighting.mp4`, is the final cut.
 
 The scripts Claude wrote along the way are in [scripts/](scripts/README.md). If you are an AI reading this repo, start with [AGENTS.md](AGENTS.md).
 

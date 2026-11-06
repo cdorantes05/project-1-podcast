@@ -1,6 +1,6 @@
 # Notebook
 
-My planning notes for the podcast, written during weeks 5–6 (Oct 7–13, 2026) before anything was filmed. They are ordered from the first idea to the final plan:
+My planning notes for the podcast, written before anything was filmed. They are ordered from the first idea to the final plan:
 
 1. [podcast-idea.md](podcast-idea.md): the first pitch (three friends, three locations, mixed-media bumpers) and my reference playlists and Pinterest boards.
 2. [podcast-topics.md](podcast-topics.md): a bank of interview topics and questions for senior year, written with Claude.

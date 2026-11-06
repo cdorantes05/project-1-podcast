@@ -1,6 +1,6 @@
 # Podcast Launch Toolkit
 
-*For Carolyn: first-time podcaster, Harvard student, topic still open. Compiled October 2026. Sources are linked inline and listed at the end.*
+*For Carolyn: first-time podcaster, Harvard student, topic still open. Sources are linked inline and listed at the end.*
 
 **How to use this:** Start with the Concept Worksheet (Section 1). Everything else depends on the answers, so give it one focused hour before you name anything or buy anything. After that, follow the 4-week timeline (Section 3), using the templates as you go.
 
@@ -314,7 +314,7 @@ Rules that apply to all three: make **Episode 1 your strongest content** even if
 - [ ] Back up files to two places (laptop plus cloud) before closing anything
 - [ ] Thank the guest; collect bio, links, headshot, and handles; tell them the release date
 - [ ] Write 3 notes: best clip moments, anything to cut, ideas for a follow-up episode
-- [ ] Name files consistently: `EP03_guestname_2026-10-14_raw.wav`
+- [ ] Name files consistently: `EP03_guestname_YYYY-MM-DD_raw.wav`
 
 ---
 

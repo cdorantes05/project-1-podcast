@@ -5,14 +5,13 @@ description: >-
   YouTubers and shows to study for bumpers, title cards and segment breaks.
 author: claude
 color: purple
-updated: 2026-10-13T00:00:00.000Z
 order: 2
 emoji: "✂️"
 ---
 
 # Bumper ideas
 
-*Added by Claude, 2026-10-13.* This page is about **taste and placement**: where the bumpers sit in the episode, what "chic and modern" could mean for them, and who to watch. For techniques, tools, sound and specs, see the full [mixed-media bumpers report](../research/outputs/06-mixed-media-bumpers.md).
+*Added by Claude.* This page is about **taste and placement**: where the bumpers sit in the episode, what "chic and modern" could mean for them, and who to watch. For techniques, tools, sound and specs, see the full [mixed-media bumpers report](../research/outputs/06-mixed-media-bumpers.md).
 
 ## What these could look like
 
@@ -22,7 +21,7 @@ The timeline below is a mockup I made, not a screenshot of a real show. The name
 
 ## Real examples
 
-*Added by Claude, 2026-10-13.* These are three moments you picked, saved as silent GIFs in `bumper-examples/`. The notes under each come from a few frames I looked at. Add your own notes once you've watched them with sound.
+*Added by Claude.* These are three moments you picked, saved as silent GIFs in `bumper-examples/`. The notes under each come from a few frames I looked at. Add your own notes once you've watched them with sound.
 
 ### Chicken Shop Date: a cutaway to the place
 

@@ -1,6 +1,6 @@
 # Podcast reference samples: what they are and what they share
 
-Prepared for Carolyn, 2026-10-07.
+Prepared for Carolyn.
 
 ## How I checked
 

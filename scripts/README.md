@@ -2,7 +2,7 @@
 
 These are the scripts Claude Code wrote while editing the podcast, recovered from the session scratchpads. They are kept as a record of the process, not as a pipeline that runs from end to end. Paths inside them point to Carolyn's machine and to temporary folders, and the media they read isn't in this repo. [PROCESS.md](../PROCESS.md) explains each step.
 
-## joanna-interview/: Part III (Nov 5)
+## joanna-interview/: Part III
 
 | File | Step |
 |---|---|
@@ -17,7 +17,7 @@ These are the scripts Claude Code wrote while editing the podcast, recovered fro
 | `audio.sh`, `afilter.txt`, `master.sh`, `master2.sh` | Audio chain and final mastering to −16 LUFS (`master2.sh` is the later one) |
 | `plan.py`, `plan2.py`, `phrases.py`, `tail.py`, `keeps_v1.json`, `keeps.json`, `keep_times.json`, `merged10.json`, `render10.sh` | The 10-minute cut: phrase selection and render |
 
-## carolyn-screen/: Part I (Nov 5)
+## carolyn-screen/: Part I
 
 | File | Step |
 |---|---|
@@ -26,7 +26,7 @@ These are the scripts Claude Code wrote while editing the podcast, recovered fro
 | `plan.py`, `segments.json` | Final cut plan: six tangents removed and pauses shortened |
 | `render.py`, `concat-list.txt` | Render the segments and join them |
 
-## lighting-fix/: Part III lighting in podcast-final-1 (Nov 5)
+## lighting-fix/: Part III lighting in podcast-final-1
 
 ffmpeg filter graphs in order:
 
@@ -34,7 +34,7 @@ ffmpeg filter graphs in order:
 - `fcR.txt` and `renderR.txt`: darken the person on the right.
 - `fcR2.txt` and `renderR2.txt`: the same, darker. **This is the final version.**
 
-## lighting-final-project-2/: Part III grade in final-project-2 (Nov 6)
+## lighting-final-project-2/: Part III grade in final-project-2
 
 `grade.txt` is the brightness curve that matches the poster-wall scene to the couch scene.
 

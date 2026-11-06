@@ -15,7 +15,7 @@ Nov 5 am   Sync, clean and cut Part III ──► joanna podcast - final.mov
 Nov 5 pm   Bumper: 6 from-scratch versions, then edit the reference video ──► bumper-final.mp4
 Nov 5 eve  Record and cut Part I: Carolyn on Photo Booth ──► carolyn-screen-final.mov
 Nov 5 late Join the three parts, level the loudness, build transitions ──► podcast-full-final.mp4
-Nov 5–6    Finish in iMovie, fix lighting in Part III ──► final-project-2.mp4 ──► final-cut-720p.mp4 (in repo)
+Nov 5–6    Finish in iMovie, fix lighting in Part III ──► final-project-2-lighting.mp4 ──► final-cut-720p.mp4 (in repo)
 ```
 
 The finished episode runs in this order: **Part I** (Carolyn) → **Part II** (Daisy) → **bumper** → **Part III** (Joanna).
@@ -123,10 +123,10 @@ Source: a screen recording of Photo Booth, `carolyn-screen.mov` *(local)*, plus 
    - The final fix applies from 24:47 (1486.9 s): a soft oval mask over the right-hand person, with a darkening curve and a slight colour shift.
    - Her face brightness went from 133 to 113, matching the person on the left.
    - Result: `podcast-final-1-lighting-fix.mp4` *(local)*. [`lighting-fix-before-after.png`](project-1/lighting-fix-before-after.png) shows four moments before and after.
-3. **Final export.** `final-project-2.mp4` *(local)*, 1080p, 34:17, 5.2 GB, exported Nov 6 at 12:07 am. The 720p copy in this repo, [`final-cut-720p.mp4`](project-1/final-cut-720p.mp4), was made from it.
-4. **Later grade.** `final-project-2-lighting.mp4` *(local)* was made on Nov 6 at 12:41 pm (scripts: [scripts/lighting-final-project-2/](scripts/lighting-final-project-2/)).
+3. **iMovie export.** `final-project-2.mp4` *(local)*, 1080p, 34:17, 5.2 GB, exported Nov 6 at 12:07 am.
+4. **Final grade.** `final-project-2-lighting.mp4` *(local)*, made Nov 6 at 12:41 pm. **This is the final version.** Scripts: [scripts/lighting-final-project-2/](scripts/lighting-final-project-2/).
    - From 24:41.5 to the end, a brightness curve makes the poster-wall scene match the couch scene: blacks 37 vs 34, whites 190 vs 183, average 119 vs 118.
-   - It was made after the 720p copy, so it is not in the repo.
+   - The 720p copy in this repo, [`final-cut-720p.mp4`](project-1/final-cut-720p.mp4), was made from it (two-pass H.264 at 290 kbps, AAC 64 kbps).
 
 ## What isn't recorded
 

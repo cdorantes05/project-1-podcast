@@ -23,7 +23,7 @@ The full step-by-step record, with the feedback behind each change, is in **[PRO
 4. **Bumper** (Nov 5). Six versions were drawn from scratch in code (`bumper` to `bumper-v6`). I then switched to editing the reference video itself with `refswap.py`. [`bumper-ref-edit-v2/bumper-final.mp4`](project-1/bumper-ref-edit-v2/bumper-final.mp4) is the one used.
 5. **Part I, me on Photo Booth** (Nov 5). A screen recording paired with my phone audio, cut to 9:44.
 6. **Assembly** (Nov 5). The three parts and the bumper were joined with ffmpeg and each section was levelled to −16 LUFS. Two transitions were built: the interview grows out of a QuickTime window, and Part III grows out of the bumper's WordPad window.
-7. **Finishing** (Nov 5–6). I finished the edit in iMovie and darkened the over-lit person in Part III ([before/after](project-1/lighting-fix-before-after.png)). The final export is `final-project-2.mp4`.
+7. **Finishing** (Nov 5–6). I finished the edit in iMovie and darkened the over-lit person in Part III ([before/after](project-1/lighting-fix-before-after.png)). After exporting `final-project-2.mp4`, I evened out the lighting of the poster-wall scene to match the couch scene; that version, `final-project-2-lighting.mp4`, is the final cut.
 
 The scripts Claude wrote along the way are in [scripts/](scripts/README.md). If you are an AI reading this repo, start with [AGENTS.md](AGENTS.md).
 
@@ -53,7 +53,7 @@ GitHub won't store files over 100 MB, so these stay on my computer in `~/AI/proj
 - Raw footage: `IMG_1104.MOV`, `IMG_1155.MOV`, `IMG_1155 - joanna audio.mov`
 - Intermediate edits: `joanna podcast - 10 min / edited / final.mov`, `podcast-full*.mp4`, `podcast-final-1*.mp4`, `podcast-final-4k.mp4`, `podcast-preview-720p.mp4`
 - Screen recordings: `carolyn-screen*.mov`
-- The full-quality final: `final-project-2.mp4` (1080p, 5.2 GB), and the later regrade `final-project-2-lighting.mp4`
+- The full-quality final: `final-project-2-lighting.mp4` (1080p, 3.3 GB), and the iMovie export before the grade, `final-project-2.mp4`
 
 ## Rebuilding a bumper
 

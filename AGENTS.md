@@ -12,10 +12,10 @@ This repository documents how Carolyn Dorantes made a video podcast for Project 
 
 ## Facts to rely on
 
-- **Final output:** `project-1/final-cut-720p.mp4` is a 720p, 34-minute copy of `final-project-2.mp4` (1080p, 5.2 GB). The full-size file is not in the repo.
+- **Final output:** `project-1/final-cut-720p.mp4` is a 720p, 34-minute copy of `final-project-2-lighting.mp4`, the iMovie export `final-project-2.mp4` with a final lighting grade on Part III. The full-size file is not in the repo.
 - **Structure:** three parts, about 10 minutes each: Carolyn alone on Photo Booth, Daisy in the living room, Joanna in Carolyn's room. See [notebook/podcast-plan.md](notebook/podcast-plan.md).
 - **Missing media:** raw footage and intermediate renders over 100 MB stay on Carolyn's computer. The README lists them. Their names appear in PROCESS.md so the chain of versions can still be followed.
-- **Code versus hand edits:** bumpers, audio cleanup, loudness normalization and the lighting fix were made with scripts and ffmpeg commands. The final assembly was done in Adobe Premiere Pro.
+- **Code versus hand edits:** bumpers, audio cleanup, loudness normalization and the lighting fix were made with scripts and ffmpeg commands. The three parts were joined with ffmpeg, then the edit was finished in iMovie, and the last lighting grade was applied with ffmpeg.
 - **Version folders:** a folder or file with a higher version number (`bumper-v6`, `bumper-ref-edit-v2`) or a later timestamp in PROCESS.md replaced the earlier ones. Earlier versions are kept to show how the work changed.
 
 ## Conventions

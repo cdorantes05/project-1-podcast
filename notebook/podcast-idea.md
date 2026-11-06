@@ -22,4 +22,4 @@ Interview three different friends in three different locations, with bumpers bet
 
 ## Research
 
-[Podcast prep](/docs/ai-research/podcast-prep) holds seven AI-generated research reports on the episode, the bumpers, filming on location, and launching.
+[Podcast prep](../research/README.md) holds seven AI-generated research reports on the episode, the bumpers, filming on location, and launching.

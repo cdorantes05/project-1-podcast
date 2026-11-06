@@ -12,7 +12,7 @@ emoji: "✂️"
 
 # Bumper ideas
 
-*Added by Claude, 2026-10-13.* This page is about **taste and placement**: where the bumpers sit in the episode, what "chic and modern" could mean for them, and who to watch. For techniques, tools, sound and specs, see the full [mixed-media bumpers report](/docs/ai-research/podcast-prep/06-mixed-media-bumpers).
+*Added by Claude, 2026-10-13.* This page is about **taste and placement**: where the bumpers sit in the episode, what "chic and modern" could mean for them, and who to watch. For techniques, tools, sound and specs, see the full [mixed-media bumpers report](../research/outputs/06-mixed-media-bumpers.md).
 
 ## What these could look like
 

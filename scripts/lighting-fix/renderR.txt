@@ -1,0 +1,5 @@
+[0:v]split[a][b];
+[b]curves=all='0/0 0.25/0.23 0.5/0.44 0.8/0.72 1/0.93',colorbalance=rh=0.02:bh=-0.03:rm=0.01:bm=-0.015,eq=saturation=1.04[c];
+[1:v]format=gray[m];
+[c][m]alphamerge=shortest=1[cm];
+[a][cm]overlay=format=auto:shortest=1:enable='gte(t,1486.9)',format=yuv420p[v]

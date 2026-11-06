@@ -12,7 +12,7 @@ emoji: "💬"
 
 # Podcast topics
 
-A bank of things to talk about with your three friends, written for senior year of college. Each topic has a few starter questions. You don't need all of them: pick one or two topics per friend, or one topic for the whole episode and ask all three friends the same questions so the segments can be compared (the [episode plan](/docs/ai-research/podcast-prep/05-episode-and-interviews) explains why that helps).
+A bank of things to talk about with your three friends, written for senior year of college. Each topic has a few starter questions. You don't need all of them: pick one or two topics per friend, or one topic for the whole episode and ask all three friends the same questions so the segments can be compared (the [episode plan](../research/outputs/05-episode-and-interviews.md) explains why that helps).
 
 Questions marked ⭐ tend to get the best stories, because they ask for a specific moment instead of an opinion.
 
